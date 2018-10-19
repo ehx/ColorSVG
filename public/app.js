@@ -18,6 +18,16 @@ angular.module("myApp", ['color.picker']).controller("myCtrl", function ($scope,
             'id': 'sublime',
             'name': 'Sublime Text',
             'description': 'code development'
+        },
+		{
+            'id': 'heart',
+            'name': 'heart 8bits',
+            'description': 'heart 8bits icon'
+		},
+		{
+            'id': 'location',
+            'name': 'location',
+            'description': 'location icon'
         }
     ];
     $scope.icon = {
